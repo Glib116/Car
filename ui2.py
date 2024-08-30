@@ -10,7 +10,7 @@ def button_callback():
 app = customtkinter.CTk()
 app.geometry("400x150")
 
-button_image = customtkinter.CTKImage(Image.open("microphone.png"), size = (26,26))
+
 
 button = customtkinter.CTkButton(app, text="my button", command=button_callback)
 button.pack(padx=20, pady=20)
