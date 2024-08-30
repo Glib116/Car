@@ -1,7 +1,7 @@
 from groq import Groq
 client = Groq(api_key="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",)
 def generate(prompt):
-    chat_completion = client.chat.completions.create(
+    chat_complection = client.chat.complections.create(
         messages = [
         {
             "role": "user",
@@ -15,6 +15,5 @@ def generate(prompt):
             
     )
     
-    return chat_completion.choices[0].message.content
-    
+    return chat_complection.choices[0].message.content
 
